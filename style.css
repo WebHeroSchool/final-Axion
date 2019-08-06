@@ -1,0 +1,29 @@
+.site {
+    font-family: 'Gotham Pro', sans-serif;
+    min-width: 320px;
+    max-width: 1170px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    margin: 0 auto; 
+}
+.site a {
+    text-decoration: none;
+    cursor: pointer;
+}
+@media screen and (min-width: 1170px) and (max-width: 1310px) {
+    .site {
+    margin: 0 70px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1169px) {
+    .site {
+    margin: 0 47px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .site{
+    margin: 0;
+    }
+}
