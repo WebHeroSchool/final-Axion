@@ -86,7 +86,7 @@
         left: 43px;
         width: 210px;
         font: bold 20px 'Gotham Pro';
-        margin: 36.5px 0 0 0;
+        margin: 40px 0 0 0;
     }
     .banner__title {
         width: 355px;
@@ -114,7 +114,7 @@
         left: 48px;
         width: 206px;
         font: bold 20px 'Gotham Pro';
-        margin: 9px 0 0 0;
+        margin: 12px 0 0 0;
     }
     .banner__title {
         font: bold 20px/19px 'Gotham Pro';
@@ -164,7 +164,7 @@
 .content__catalog {
     display: flex;
     flex-direction: column;
-    margin-bottom: 76px;
+    margin-bottom: 78px;
 }
 .content__catalog-wrap {
     margin: 0 auto;
@@ -438,13 +438,13 @@
 @media screen and (min-width: 375px) and (max-width: 599px) {
     .content__catalog {
         padding: 0 52px 0 44px;
-        margin-bottom: 70px;
+        margin-bottom: 99px;
     }
 }
 @media screen and (max-width: 374px) {
     .content__catalog {
         padding: 0 20px 0 18px;
-        margin-bottom: 70px;
+        margin-bottom: 95px;
     }
     .content__catalog_title {
         padding-right: 15px;
@@ -525,7 +525,7 @@
         font: bold 20px/19px 'Gotham Pro';
     }
     .color__set {
-        margin: 7px 15px 0 0;
+        margin: 0 15px 0 0;
     }
     .color__set_button {
         margin-right: 5px;
