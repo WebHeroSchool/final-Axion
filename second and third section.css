@@ -955,6 +955,7 @@
         font: 12px/11px 'Gotham Pro';
         color: white;
         margin-bottom: 7px;
+        text-decoration: none;
 }
 .footer__menu_title {
         font: bold 12px/11px 'Gotham Pro';
