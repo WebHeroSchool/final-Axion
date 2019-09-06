@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: flex-start;
     position: relative;
-    margin-bottom: 43px;
+    margin-bottom: 64px;
     text-transform: uppercase;
     color: white;
 }
@@ -30,15 +30,15 @@
     top: 76px;
     left: 54px;
     width: 209px;
-    margin: 0;
+    margin: 0 0 14px 0;
 }
 .banner__shop {
     font: bold 12px 'Gotham Pro';
     position: absolute;
-    top: 157px;
+    top: 175px;
     left: 54px;
     width: 129px;
-    margin: 13.5px 0 0 0;
+    margin: 0;
 }
 .banner__shop_link {
     display: inline-block;
@@ -55,16 +55,17 @@
         top: 91px;
         left: 60px;
         width: 195px;
+        margin-bottom: 15px;
     }
     .content__banner {
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
 }
 @media screen and (min-width: 1025px) {
     .banner__shop {
-        top: 177px;
+        top: 192px;
         left: 60px;
-        margin: 15px 0 0 0;
+        margin: 0;
     }
 }
 @media screen and (min-width: 1025px) {
@@ -79,7 +80,7 @@
 }
 @media screen and (min-width: 767px) and (max-width: 1023px) {
     .content__banner {
-        margin-bottom: 36px;
+        margin-bottom: 62px;
     }
     .banner__shop {
         top: 273px;
@@ -173,6 +174,7 @@
     font: bold 22px/21px 'Gotham Pro';
     text-align: center;
     text-transform: uppercase;
+    margin: 0 0 18px 0;
 }
 .content__catalog_product {
     display: flex;
@@ -182,7 +184,6 @@
 .catalog__product {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 208px;
     position: relative;
     margin-right: 33px;
@@ -212,13 +213,18 @@
 }
 .product__image {
     width: 170px;
-    margin: 0 17px 25px 21px;
+    padding: 0 17px 26px 21px;
+}
+.catalog__product_info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 11px; 
 }
 .catalog__product_title {
     font: 12px/11px 'Gotham Pro';
     color: black;
     width: 100%;
-    margin: 0 0 9px 18px;
+    margin: 0 0 10px 0;
     text-align: left;
 }
 .product__about {
@@ -229,7 +235,7 @@
     flex-wrap: nowrap;
 }
 .product__about_price {
-    margin: 0 0 0 11px;
+    margin: 0;
     font: bold 14px/13px 'Gotham Pro';
 }
 .color__set {
@@ -299,13 +305,13 @@
     }
     .product__image {
         width: 188px;
-        margin: 0 19px 10px 23px; 
+        padding: 0 19px 10px 23px; 
     }
     .catalog__product_title {
-        margin: 0 0 9px 21px;
+        margin: 0 0 9px 0;
     }
     .product__about_price {
-        margin: 0 0 0 11px; 
+        margin: 0; 
     }
     .color__set {
         margin-right: 7px;
@@ -342,7 +348,7 @@
     }
     .product__image {
         width: 200px;
-        margin: 0 17px 27px 21px;
+        padding: 0 17px 27px 21px;
     }
     .catalog__product_title {
         font: 17px/16px 'Gotham Pro';
@@ -393,11 +399,14 @@
     }
     .product__image {
         width: 230px;
-        margin: 0 23px 20px 28px; 
+        padding: 0 23px 23px 28px; 
+    }
+    .catalog__product_info {
+        padding-left: 0;
     }
     .catalog__product_title {
         font: 20px/19px 'Gotham Pro';
-        padding-left: 36px;
+        padding-left: 18px;
         margin: 0 0 18px 0;
     }
     .product__about_price {
@@ -444,7 +453,7 @@
 @media screen and (max-width: 374px) {
     .content__catalog {
         padding: 0 20px 0 18px;
-        margin-bottom: 95px;
+        margin-bottom: 100px;
     }
     .content__catalog_title {
         padding-right: 15px;
@@ -510,18 +519,22 @@
     }
     .product__image {
         width: 163px;
-        margin-bottom: 13px;
+        margin: 0 0 13px 0;
+        padding-left: 60px;
+    }
+    .catalog__product_info {
+        padding-left: 17px; 
     }
     .catalog__product_title {
         font: 15px/14px 'Gotham Pro';
         margin: 0 0 7px 0;
-        padding-left: 33px;
+        padding-left: 0;
     }
     .product__about {
-        padding-left: 33px;
+        padding-left: 0;
     }
     .product__about_price {
-        margin: 0;
+        margin-right: 121px;
         font: bold 20px/19px 'Gotham Pro';
     }
     .color__set {

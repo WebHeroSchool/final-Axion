@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    padding-top: 23px;
+    padding-top: 29px;
     margin-bottom: 34px;
     box-sizing: border-box;
     height: 96px;
@@ -11,6 +11,7 @@
 @media screen and (min-width: 1026px) and (max-width: 1171px) {
     .header {
         margin-bottom: 18px;
+        padding-top: 23px;
     }
 }
 @media screen and (max-width: 1023px) {
@@ -108,6 +109,7 @@
     font: bold 12px/11px 'Gotham Pro';
     text-transform: uppercase;
     color: black;
+    opacity: 1;
 }
 .header__menu_link:last-child {
     margin-right: 0;
@@ -141,7 +143,7 @@
     }
 }
 .form__search_placeholder {
-    width: 161px;
+    width: 160px;
     border: none;
     padding: 0;
 }
@@ -150,13 +152,11 @@
     padding: 0;
     background: transparent;
     position: absolute;
-    right: 3px;
+    right: 4px;
     bottom: -1px;
 }
-@media screen and (min-width: 1025px) {
-    .form__search_submit {
-        right: 0;
-    }
+.form__search_submit-img {
+    width: 100%;
 }
 .header__action {
     display: flex;
@@ -210,13 +210,14 @@
     border: 1px solid black;
     border-radius: 50%;
     background: black;
-    position: relative;
+    box-sizing: border-box;
     margin-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .cart__sum_num {
-    position: absolute;
-    top: 2px;
-    left: 4px;
+    color: white;   
 }
 .header__action_language {
     width: 18px;
